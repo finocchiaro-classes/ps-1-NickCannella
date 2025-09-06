@@ -4,11 +4,11 @@ def heart_rate(age, goal):
     if goal == "S":
         lower = .80*max_HR
         upper = max_HR
-        print ("Your target heart rate is between", int(lower), "and", int(upper))
+        print ("Your target heart rate is between", float(lower), "and", int(upper))
     elif goal == "E":
         lower = .60*max_HR
         upper = .80*max_HR
-        print("Your target heart rate is between", int(lower), "and", int(upper))
+        print("Your target heart rate is between", float(lower), "and", float(upper))
     
 
 user_age = int(input("What is your age? "))
